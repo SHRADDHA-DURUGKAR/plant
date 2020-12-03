@@ -1,0 +1,133 @@
+<html>
+<head>
+    <style>
+        body{
+   font-size:20px;
+            color:white;
+            background-size: cover;
+        }
+         .box{ width: 900px;
+       float:right;
+       border:1px solid none;}
+       .box ul li{
+           width: 120px;
+           float:left;
+           margin: 10px auto;
+           text-align: center;
+       }
+ .mainmenu
+.mainmenu a
+.mainmenu a:hover
+.mainmenu img{
+position: fixed;
+z-index: -1;
+top:0px; left:0px; width:100%; height: 100vh;
+opacity: 0.9;
+/*object-fit:cover;*/
+transition: all ease 0.5s;
+}
+   .wd{
+           width: 300px;
+           height: 539px;
+           background-color: black;
+           opacity: 0.8;
+           padding: 55px;
+       }
+       .wd h1{
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: 300px;
+       }
+       .wd h4{
+           text-align: justify;
+           color:white;
+           font-weight: 100px;
+       }
+
+       .wd h5{
+           text-align: justify;
+           color:white;
+           font-weight: 100px;
+       }
+       .wd h2{
+           text-align: center;
+           text-transform: capitalize;
+           font-weight: normal;
+           margin: 40px auto;
+       }
+       .opt form , input[type="button"]{
+           background-color: black;
+           color:white;
+         /* padding:10px;*/
+           margin:-14px auto;
+           padding-left: 50px;
+           padding-right: 50px;
+           text-align: center;
+           font-size: 16px;
+       }
+     form, input[type="button"] {
+       animation: glowing 500ms infinite;
+       font-weight: 500%;
+      }
+      @keyframes glowing {
+ 0% {
+   background-color: black;
+ }
+ 50% {
+   background-color: red;
+ }
+ 100% {
+   background-color: blue;
+ }
+}
+   </style>
+</head>
+<body background="Website/plant4.jpg"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(function(){
+var image = $(".mainmenu").find('img').attr('src');
+$(".mainmenu a").mouseover(function(){
+var newimg = $(this).attr('data-image');
+$(this).parent().find('img').attr("src", newimg);
+});
+});
+</script>
+   <div class="box">
+<div class="mainmenu">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
+   
+ <body>
+   
+   <a href="#">HOME</a>&nbsp;&nbsp
+   <a href="#">ABOUT</a>&nbsp;&nbsp
+   <a href="#">SERVICES</a>&nbsp;&nbsp
+   <a href="#">FAQ</a>&nbsp;&nbsp
+   <a href="#">CONTACT</a>&nbsp;&nbsp
+</body>
+</div>
+   </div>
+</div>
+</div>
+</div>
+   <div class="wd">
+
+<h1> Welcome to Greenary Point Nursery</h1>
+<h2> "Plant Kindness and Gather Love"</h2> 
+<h4> Contact No. XXXXXXXXX</h4>
+<h5> Email Address:greenpoint@gmail.com </h5>
+
+<div class="opt">
+<form action="" method="post">
+<input type="button" value="ORDER NOW">
+
+</form>
+</div>
+</div>
+</body>
+</html>
